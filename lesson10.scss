@@ -317,7 +317,7 @@ img{
 }
 .link{
     margin: 7px auto;
-    width: 100px;
+    width: 105px;
     a{
         color: #3D3D3C;
         font-size: 13px;
@@ -643,7 +643,7 @@ img{
     border: 1px solid #B5B7C3;
 }
 .cards{
-    width: 95%;
+    width: 90%;
     display: flex;
     margin: 28px auto;
 }
@@ -695,7 +695,7 @@ img{
     }
 }
 .card-text{
-    width: 355px;
+    width: 95%;
     margin: 17px auto;
     p{
     font-size: 30px;
@@ -939,10 +939,11 @@ img{
 }
 .aside{
     display: flex;
+    width: 90%;
+    margin: auto;
 }
 .aside1{
     width: 561px;
-    margin-left: 83px;
     margin-top: 57px;
     h1{
         color: #3D3D3C;
@@ -961,7 +962,7 @@ img{
     }
 }
 .aside2{
-    margin-left: 83px;
+    margin-left: auto;
     margin-top: 78px;
 }
 .mb-2{
@@ -1856,7 +1857,7 @@ img{
         margin: auto;
     }
     .card02{
-        margin: auto;
+        margin: 20px auto;
     }
     .card3{
         margin: auto;
@@ -1903,3 +1904,6 @@ img{
     display: none;
 }
 }
+// *{
+    // border: 1px solid red;
+// }
