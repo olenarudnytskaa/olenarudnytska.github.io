@@ -827,6 +827,17 @@
     width: 225px;
     overflow: visible;
  }
+ .page{
+    width: 3%;
+    margin: 20px auto;
+    a{
+        font-size: 18px;
+        font-weight: 500;
+        color: #3D3935;
+        text-decoration: none;
+        margin: auto;
+    }
+ }
  @media (min-width: 320px) and (max-width: 690px){
     .burger{
         display: block;
