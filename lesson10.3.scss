@@ -390,7 +390,7 @@
     transform: rotateY(30deg) ;
 }
 .title07{
-    width: 72%;
+    width: 90%;
     margin: auto;
     display: flex;
 }
@@ -700,7 +700,7 @@
     }
 }
 .line2{
-    width: 72%;
+    width: 90%;
     height: 1px;
     margin: 22px auto;
     border: 1px solid #B5B7C3;
@@ -1070,14 +1070,41 @@
     .cards{
         width: 79%;
     }
+    .line2{
+        width: 89%;
+    }
+    .title7{
+        width: 87%;
+    }
+    .title07{
+        width: 89%;
+    }
 }
 @media (min-width: 1645px) and (max-width: 1745px){
     .cards{
         width: 74%;
     }
+    .line2{
+        width: 78%;
+    }
+    .title7{
+        width: 78%;
+    }
+    .title07{
+        width: 78%;
+    }
 }
 @media (min-width: 1745px) and (max-width: 1921px){
     .cards{
         width: 68%;
+    }
+    .line2{
+        width: 72%;
+    }
+    .title7{
+        width: 72%;
+    }
+    .title07{
+        width: 72%;
     }
 }
