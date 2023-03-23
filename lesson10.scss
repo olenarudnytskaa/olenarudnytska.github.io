@@ -437,9 +437,13 @@ img{
     border: 1px solid #3D3D3C;
 }
 .big{
-    display: flex;
     width: 85%;
     margin: auto;
+}
+.big0{
+    display: flex;
+    margin: auto;
+    width: 100%;
 }
 .container4{
     width: 194px;
@@ -1236,6 +1240,9 @@ img{
     .big{
        flex-direction: column;
     }
+    .big0{
+        flex-direction: column;
+     }
     .block3{
         height: 1820px;
     }
@@ -1573,6 +1580,9 @@ img{
     .big{
        flex-direction: column;
     }
+    .big0{
+        flex-direction: column;
+     }
     .block3{
         height: 1820px;
     }
@@ -1806,6 +1816,18 @@ img{
     display: none;
 }
 }
-// *{
-    // border: 1px solid red;
-// }
+@media (min-width: 1500px) and (max-width: 1600px){
+    .big0{
+        width: 95%;
+    }
+}
+@media (min-width: 1600px) and (max-width: 1700px){
+    .big0{
+        width: 90%;
+    }
+}
+@media (min-width: 1700px) and (max-width: 1920px){
+    .big0{
+        width: 80%;
+    }
+}
